@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 import React, { Suspense } from "react";
 import markdownit from "markdown-it";
 import { Skeleton } from "@/components/ui/skeleton";
-import View from "@/components/view";
+import View from "@/components/View";
 import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 
 const md = markdownit();

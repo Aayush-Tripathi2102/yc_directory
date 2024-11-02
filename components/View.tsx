@@ -1,5 +1,5 @@
 import React from "react";
-import Ping from "./ping";
+import Ping from "./Ping";
 import { client } from "@/sanity/lib/client";
 import { STARTUP_VIEWS_QUERY } from "@/lib/queries";
 import { writeClient } from "@/sanity/lib/write-client";
